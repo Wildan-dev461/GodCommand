@@ -1,6 +1,6 @@
 <?php
 
-namespace WildanDev/GodCommand;
+namespace WildanDev\GodCommand;
 
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
