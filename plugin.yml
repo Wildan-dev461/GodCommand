@@ -1,7 +1,7 @@
 name: GodCommand
 version: 1.0.0
 api: 5.0.0
-main: WildanDev\GodCommand
+main: WildanDev\GodCommand\GodCommand
 author: WildanDev
 description: Make player immune to all damage
 commands:
