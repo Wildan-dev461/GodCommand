@@ -1,0 +1,16 @@
+# Config.yml for GodCommand plugin
+
+# Duration of God mode in seconds
+god-duration: 300
+
+# Message sent to the player when God mode is enabled
+god-message: "§aGod mode enabled for 300 seconds."
+
+# Message sent to the player when God mode is disabled
+god-disable-message: "§cGod mode has been disabled."
+
+# Duration of cooldown in seconds
+cooldown-duration: 60
+
+# Message sent to the player when they are on cooldown
+cooldown-message: "§cYou are on cooldown. Please wait {remaining-time} seconds before using God mode again."
