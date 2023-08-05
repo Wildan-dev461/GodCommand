@@ -13,7 +13,7 @@ use pocketmine\utils\TextFormat as TF;
 
 class GodCommand extends PluginBase implements Listener {
 
-    private $godEnabled = [];
+    private $godEnabled;
     private $godDuration;
     private $godMessage;
     private $godDisableMessage;
