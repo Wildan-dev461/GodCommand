@@ -7,10 +7,10 @@ description: Make player immune to all damage
 commands:
   god:
     description: Allow player to use god command
-    permission: god.use
+    permission: godcommand.use
     
 permissions:
-  god.use:
+  godcommand.use:
     description: Allow player using god command
     default: op
   
