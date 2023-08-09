@@ -32,12 +32,10 @@ class GodCommand extends PluginBase implements Listener {
         $this->godDisableMessage = $this->getConfig()->get("god-disable-message");
         $this->cooldownDuration = $this->getConfig()->get("cooldown-duration");
         $this->cooldownMessage = $this->getConfig()->get("cooldown-message");
-
-        $this->getLogger()->info("GodCommand has been enabled.");
     }
 
     public function onDisable(): void {
-        $this->getLogger()->info("GodCommand has been disabled.");
+        // No logic implement
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
