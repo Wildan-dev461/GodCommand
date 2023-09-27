@@ -16,7 +16,6 @@ class GodCommand extends PluginBase implements Listener {
     private $godEnabled = [];
     private $godDuration;
     private $godMessage;
-    private $godDisableMessage;
     private $cooldownDuration;
     private $cooldownMessage;
     private $cooldowns = [];
